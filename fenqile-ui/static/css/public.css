@@ -1,0 +1,36 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+.content{
+	flex:1;
+	display: flex;
+	background: #efefef;
+}
+nav{
+	width: 220px;
+	background: green;
+	margin-right: 15px;
+	background: white;
+}
+aside{
+	flex:1;
+	background:#efefef;
+}
